@@ -1,6 +1,8 @@
 # Data-preprocessing
 This is the section 3 of Machine learning A - Z, where we first obtain the data and preprocess it to our liking.
 
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/91a00f0a-99b5-41ea-9121-40f0333798f5/da1dbb63-559a-44d6-b50c-917b11c0f29e/Untitled.png)
+
 # What is Data preprocessing?
 Data preprocessing is a crucial step in the data analysis and machine learning pipeline. It involves cleaning, transforming, and organizing raw data into a format that is suitable for analysis or model training. 
 
@@ -37,4 +39,20 @@ In this case, the dependent variable is a case of categorical data of two option
 3. now we just give y the new atribuition of the trained and already written new values of the data.
 
 ## Splitting the dataset into the Training set and Test set
-In this step, we need to understand that when training a machine learning model, we need to split the database into two: the training set, which are the values that we will inform thee model to learn, and the test set which were we let the model make predictions of the supposed values.
+In this step, we need to understand that when training a machine learning model, we need to split the database into two: the training set, which are the values that we will inform thee model to learn, and the test set which were we let the model make predictions of the supposed values. And to do so we:
+1. import tran_test_split function from sklearn.model_selection
+
+2. declare the X's and y's variables for both train and tests splits as an instance of tran_test_split
+
+3. The parameters from the function will be the train variable, the test variable, the test size (20%) and the random_state, which will be 1.
+
+### Feature Scaling
+Lastly, we import StandardScaler from sklearn.preprocessing, that has the objetive of normalizing a range of values for the received data, so that is easier for analysis
+1. Create a instance of StandardScaler()
+
+2. use the special function of fit_transform as a result for the last row of x_train (which is what we will analize)
+
+3. again use transform function of transform() as a result for the last row of x_test
+
+## Result
+We can now makee a analysis of the result after we stardardized the values from both train and test, the are easier to look at and take action from it!
