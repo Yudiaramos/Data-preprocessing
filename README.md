@@ -1,7 +1,8 @@
 # Data-preprocessing
 This is the section 3 of Machine learning A - Z, where we first obtain the data and preprocess it to our liking.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/91a00f0a-99b5-41ea-9121-40f0333798f5/da1dbb63-559a-44d6-b50c-917b11c0f29e/Untitled.png)
+![image](https://github.com/Yudiaramos/Data-preprocessing/assets/71808184/9f7232f2-6538-4da9-b1d0-ae29f3db92ba)
+
 
 # What is Data preprocessing?
 Data preprocessing is a crucial step in the data analysis and machine learning pipeline. It involves cleaning, transforming, and organizing raw data into a format that is suitable for analysis or model training. 
